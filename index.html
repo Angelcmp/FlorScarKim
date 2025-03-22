@@ -1,0 +1,123 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Flores Amarillas Para Ti</title>  
+  <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+
+  <!-- Contenedor para los pétalos cayendo -->  
+  <div class="flower-petals" id="flower-petals"></div>  
+
+  <div class="container">  
+    <header>  
+      <h1>Flores Amarillas Para Kimberly</h1>  
+    </header>  
+
+    <div class="main-content">  
+      <div class="message-card">  
+        <p class="message-text">  
+          Las flores amarillas simbolizan <span class="highlight">alegría, amistad y nuevos comienzos</span>.  
+          Son como esos momentos cuando compartimos jugando overcooked o it takes two, llenos de risas y momentos increibles.  
+          <br><br>  
+          Quería regalarte estas flores virtuales, porque como en nuestros juegos,  
+          a veces lo más valioso no es lo que podemos tocar, sino lo que podemos sentir.  
+        </p>  
+      </div>  
+
+      <div class="flower-container" id="flower-garden">  
+        <!-- Las flores se generarán con JavaScript -->  
+      </div>  
+
+      <div class="buttons-container">  
+        <button class="special-button" id="gallery-button">Nuestros Mejores Momentos en It takes two (Hasta que lo terminemos)</button>  
+      </div>  
+
+        <!-- Galería de videos -->  
+        <div class="gallery" id="gallery">  
+            <div class="video-card">  
+            <video src="itt1.mp4" class="gallery-video" poster="1.webp" muted></video>   
+            <p class="video-description">Este jefe se nos complico un poco pero gracias a tu punteria pudimos matarlo.</p>  
+            </div>  
+        
+            <div class="video-card">  
+            <video src="itt2.mp4" class="gallery-video" poster="6.webp" muted></video>  
+            <p class="video-description">Esta parte me encanto, despues de pelear nos relajamos tomandonos lindas fotos, por cierto muy guapa :P.</p>  
+            </div>  
+
+        
+            <div class="video-card">  
+            <video src="itt4.mp4" class="gallery-video" poster="2.jpg" muted></video>  
+            <p class="video-description">Despues nos montamos en una especie de ballena voladora :O.</p>  
+            </div> 
+
+            <div class="video-card">  
+            <video src="itt5.mp4" class="gallery-video" poster="7.JPG" muted></video>  
+            <p class="video-description">Este minijuego no lo entendias al principio, pero despues le agarraste ritmo hasta ganarme jajaja DESPUES DE PERDER 10 VECES xD.</p>  
+            </div> 
+            
+            <div class="video-card">  
+            <video src="itt6.mp4" class="gallery-video" poster="8.jpg" muted></video>  
+            <p class="video-description">ESTE ESCARABAJO SI ME TENIA KBEADDO PERO LO LOGRAMOS.</p>  
+            </div> 
+        
+            <div class="video-card">  
+            <video src="itt7.mp4" class="gallery-video" poster="8.jpg" muted></video>  
+            <p class="video-description">USAMOS AL ESCARABAJO PARA ESCAPAR, CINE.</p>  
+            </div> 
+
+
+            <div class="video-card">  
+            <video src="itt9.mp4" class="gallery-video" poster="4.webp" muted></video>  
+            <p class="video-description">La abeja reina nos traiciona despues de perdonale la vida y darle animos muuy hp de su parte XD.</p>  
+            </div>
+
+            <div class="video-card">  
+            <video src="itt10.mp4" class="gallery-video" poster="9.jpg" muted></video>  
+            <p class="video-description">NO FALTA LA MEJOR ARTILLERA DE AVIONES, NO DEJASTE A NADIE VIVO MUAJAJAJAJAJAJAJ.</p>  
+            </div> 
+
+            <div class="video-card">  
+            <video src="itt11.mp4" class="gallery-video" poster="10.jpg" muted></video>  
+            <p class="video-description">EL MEJOR MOMENTO EL GOTY, EL CINE PURO VIENDO COMO MATAS A LA ARDILLA COMUNISTA TRAIDORA.</p>  
+            </div> 
+
+        </div>  
+        
+        <!-- Modal para ver el video a gran escala -->  
+        <div class="video-modal" id="video-modal">  
+            <span class="close-modal" id="close-video-modal">&times;</span>  
+            <video class="modal-video" id="modal-video" controls autoplay></video>  
+            <p class="modal-video-description" id="modal-video-description"></p>  
+        </div>
+
+      <!-- Modal para ver las imágenes en grande -->  
+      <div class="image-modal" id="image-modal">  
+        <span class="close-modal" id="close-modal">&times;</span>  
+        <img src="" alt="Imagen ampliada" class="modal-content" id="modal-image">  
+      </div>  
+
+      <button class="message-toggle" id="message-toggle">Descubrir Mensaje Especial</button>  
+
+      <div class="special-message" id="special-message">  
+        <h3 class="special-title">Lo que me gusta de conocerte</h3>  
+        <p>  
+          Me encanta descubrir quién eres mientras jugamos y conversamos.  
+          <br><br>  
+          Espero seguir teniendo más aventuras juntos, tanto en los juegos como fuera de ellos.  
+          <br><br>
+          :D 
+        </p>  
+      </div>  
+    </div>  
+
+    <footer>  
+      Creado con cariño para ti &hearts; 
+    </footer>  
+  </div>  
+
+  <script src="script.js"></script>  
+</body>  
+</html>
