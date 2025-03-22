@@ -194,3 +194,11 @@ closeVideoModal.addEventListener('click', () => {
   modalVideo.pause();  
   modalVideo.removeAttribute('src');  
 });
+
+function mostrarVideo(thumbnailId, videoId) {  
+  // Oculta el contenedor con la miniatura y la descripción  
+  document.getElementById(thumbnailId).style.display = 'none';  
+  
+  // Muestra el contenedor con el iframe de YouTube  
+  document.getElementById(videoId).style.display = 'block';  
+}

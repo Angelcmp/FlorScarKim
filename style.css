@@ -403,3 +403,37 @@ body {
     font-weight: bold;  
     cursor: pointer;  
   }
+
+  #thumbnail-container {  
+    text-align: center;  
+  }  
+  
+  #thumbnail-container img {  
+    cursor: pointer;  
+    max-width: 100%;  
+    height: auto;  
+  }  
+  
+  /* Oculta el contenedor del video por defecto */  
+  #video-container {  
+    display: none;  
+    margin-top: 20px;  
+  }  
+
+  /* Aplica a ambos contenedores de miniatura, sin importar el número */  
+[id^="thumbnail-container"] {  
+  text-align: center;  
+  margin-bottom: 20px;  
+}  
+
+[id^="thumbnail-container"] img {  
+  cursor: pointer;  
+  max-width: 100%;  
+  height: auto;  
+}  
+
+/* Oculta ambos contenedores de video por defecto */  
+[id^="video-container"] {  
+  display: none;  
+  margin-bottom: 40px; /* Para separar videos */  
+}  
